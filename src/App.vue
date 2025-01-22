@@ -6,16 +6,17 @@ import './index.css';
 <template>
   <header>
 
-    <div class="">
-
+    <div class="fixed top-0 h-[3rem] drop-shadow-md left-0 right-0 z-[10]">
+Header
       <nav>
         <!--        <RouterLink to="/">Home</RouterLink>-->
         <!--        <RouterLink to="/about">About</RouterLink>-->
       </nav>
     </div>
   </header>
-
-  <RouterView/>
+  <div class="pt-[3rem]">
+    <RouterView/>
+  </div>
 </template>
 
 <style scoped>
