@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import {RouterLink, RouterView} from 'vue-router'
 import './index.css';
 </script>
 
@@ -9,16 +9,17 @@ import './index.css';
     <div class="">
 
       <nav>
-<!--        <RouterLink to="/">Home</RouterLink>-->
-<!--        <RouterLink to="/about">About</RouterLink>-->
+        <!--        <RouterLink to="/">Home</RouterLink>-->
+        <!--        <RouterLink to="/about">About</RouterLink>-->
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <RouterView/>
 </template>
 
 <style scoped>
+/*
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -80,4 +81,6 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+*/
+
 </style>
