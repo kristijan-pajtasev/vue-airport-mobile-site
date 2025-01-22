@@ -6,7 +6,7 @@ import './index.css';
 <template>
   <header>
 
-    <div class="wrapper bg-[red]">
+    <div class="">
 
       <nav>
 <!--        <RouterLink to="/">Home</RouterLink>-->
