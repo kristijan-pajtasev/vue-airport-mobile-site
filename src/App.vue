@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import './index.css';
 </script>
 
 <template>
   <header>
 
-    <div class="wrapper">
+    <div class="wrapper bg-[red]">
 
       <nav>
 <!--        <RouterLink to="/">Home</RouterLink>-->
