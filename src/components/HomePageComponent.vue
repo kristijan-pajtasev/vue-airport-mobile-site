@@ -4,9 +4,10 @@
 
 <template>
   <div>
-    <div class="w-full h-[10rem] overflow-hidden relative">
+    <div class="w-full h-[12rem] overflow-hidden relative">
       <img alt="header logo image" src="/images/saint-jerome-split.jpg"
-           class="w-full cover object-contain absolute top-0 bottom-0 right-0 left-0 m-auto"/>
+           class="w-full object-contain absolute top-0 bottom-0 right-0 left-0 m-auto"/>
+      <div class="absolute bottom-0 left-0 right-0 h-[3rem] bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF00]" />
     </div>
   </div>
 </template>
