@@ -1,5 +1,33 @@
 <script setup lang="ts">
+import {Ref, ref} from "vue";
 
+interface FlightsType {
+  destination: string;
+  flightNumber: string;
+  time: string;
+  id: number
+}
+
+const flights: Ref<Array<FlightsType>> = ref([
+  {
+    destination: "Barcelona",
+    flightNumber: "UO1234",
+    time: "18:55",
+    id: 1
+  },
+  {
+    destination: "Milan",
+    flightNumber: "UO1235",
+    time: "18:55",
+    id: 2
+  },
+  {
+    destination: "Frankfurt",
+    flightNumber: "UO1236",
+    time: "18:55",
+    id: 3
+  }
+])
 </script>
 
 <template>
