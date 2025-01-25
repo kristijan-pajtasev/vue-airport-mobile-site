@@ -52,4 +52,7 @@ const flights: Ref<Array<FlightsType>> = ref([
       </div>
     </div>
   </div>
+  <div class="text-center p-[0.5rem] text-white bg-[#1565C0]">
+    Show more flights
+  </div>
 </template>
