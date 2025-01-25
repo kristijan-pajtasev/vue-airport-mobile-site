@@ -6,7 +6,7 @@ import './index.css';
 <template>
   <header>
 
-    <div class="fixed top-0 h-[4rem] shadow-md p-[0.5rem] left-0 right-0 z-[10] w-full">
+    <div class="fixed top-0 h-[4rem] shadow-md p-[0.5rem] left-0 right-0 z-[10] w-full bg-white">
       <div class="flex flex-row justify-center w-full h-full">
         <img alt="header logo image" src="/images/zracna-luka-split-airport-eng.jpg"
              class="h-full w-[60%] object-contain object-center m-auto "/>
