@@ -70,7 +70,7 @@ const flights: Ref<Array<FlightsType>> = ref([
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
           <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
-          <div class="text-center">Check In
+          <div class="text-center">Getting Here
             <!--      Getting here, Parking, Contact-->
           </div>
         </div>
@@ -80,7 +80,7 @@ const flights: Ref<Array<FlightsType>> = ref([
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
           <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
-          <div class="text-center">Check In
+          <div class="text-center">Parking
             <!--      Getting here, Parking, Contact-->
           </div>
         </div>
@@ -90,7 +90,7 @@ const flights: Ref<Array<FlightsType>> = ref([
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
           <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
-          <div class="text-center">Check In
+          <div class="text-center">Contact
             <!--      Getting here, Parking, Contact-->
           </div>
         </div>
