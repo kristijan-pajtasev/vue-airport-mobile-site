@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import {Ref, ref} from "vue";
+import IconCheckIn from "@/components/icons/IconCheckIn.vue";
+import IconBus from "@/components/icons/IconBus.vue";
+import IconParking from "@/components/icons/IconParking.vue";
+import IconContact from "@/components/icons/IconContact.vue";
 
 interface FlightsType {
   destination: string;
@@ -59,7 +63,9 @@ const flights: Ref<Array<FlightsType>> = ref([
     <div class="aspect-[1] border border-[#ccc] rounded-lg">
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
-          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
+          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1]">
+            <IconCheckIn/>
+          </div>
           <div class="text-center">Check In
             <!--      Getting here, Parking, Contact-->
           </div>
@@ -69,7 +75,9 @@ const flights: Ref<Array<FlightsType>> = ref([
     <div class="aspect-[1] border border-[#ccc] rounded-lg">
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
-          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
+          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1]">
+            <IconBus/>
+          </div>
           <div class="text-center">Getting Here
             <!--      Getting here, Parking, Contact-->
           </div>
@@ -79,7 +87,9 @@ const flights: Ref<Array<FlightsType>> = ref([
     <div class="aspect-[1] border border-[#ccc] rounded-lg">
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
-          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
+          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1]">
+            <IconParking/>
+          </div>
           <div class="text-center">Parking
             <!--      Getting here, Parking, Contact-->
           </div>
@@ -89,7 +99,9 @@ const flights: Ref<Array<FlightsType>> = ref([
     <div class="aspect-[1] border border-[#ccc] rounded-lg">
       <div class="w-full h-full  flex flex-row justify-center items-center">
         <div>
-          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1] bg-[#AAAAAA]">Icon</div>
+          <div class="m-auto mb-[0.5rem] w-[6rem] h-[6rem] aspect-[1]">
+            <IconContact/>
+          </div>
           <div class="text-center">Contact
             <!--      Getting here, Parking, Contact-->
           </div>
