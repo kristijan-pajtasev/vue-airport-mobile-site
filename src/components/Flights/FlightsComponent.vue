@@ -40,11 +40,11 @@ const flights: Ref<Array<FlightsType>> = ref([
 
 <template>
   <div class="flex flex-row border border-[#cccccc]">
-    <button type="button" class="flex-[1] flex flex-row items-center justify-center text-center p-[0.5rem] border-r border-r-[#cccccc]">
+    <button type="button" class="flex-[1] flex flex-row gap-[0.5rem] items-center justify-center text-center p-[0.5rem] border-r border-r-[#cccccc]">
       <span class="inline-block h-[1.5rem]"><IconArrivals/></span>
       Departures
     </button>
-    <button type="button" class="flex-[1] flex flex-row items-center justify-center text-center p-[0.5rem]">
+    <button type="button" class="flex-[1] flex flex-row gap-[0.5rem] items-center justify-center text-center p-[0.5rem]">
       <span class="inline-block h-[1.5rem]"><IconDepartures/></span>
       Arrivals
     </button>
