@@ -5,6 +5,8 @@ import IconBus from "@/components/icons/IconBus.vue";
 import IconParking from "@/components/icons/IconParking.vue";
 import IconContact from "@/components/icons/IconContact.vue";
 import HomePageTiles from "@/components/HomePageTiles.vue";
+import IconArrivals from "@/components/icons/IconArrivals.vue";
+import IconDepartures from "@/components/icons/IconDepartures.vue";
 
 interface FlightsType {
   destination: string;
@@ -37,10 +39,12 @@ const flights: Ref<Array<FlightsType>> = ref([
 
 <template>
   <div class="flex flex-row border border-[#cccccc]">
-    <button type="button" class="flex-[1] text-center p-[0.5rem] border-r border-r-[#cccccc]">
+    <button type="button" class="flex-[1] flex flex-row items-center justify-center text-center p-[0.5rem] border-r border-r-[#cccccc]">
+      <span class="inline-block h-[1.5rem]"><IconArrivals/></span>
       Departures
     </button>
-    <button type="button" class="flex-[1] text-center p-[0.5rem]">
+    <button type="button" class="flex-[1] flex flex-row items-center justify-center text-center p-[0.5rem]">
+      <span class="inline-block h-[1.5rem]"><IconDepartures/></span>
       Arrivals
     </button>
   </div>
@@ -60,5 +64,5 @@ const flights: Ref<Array<FlightsType>> = ref([
   <div class="text-center p-[0.5rem] text-white bg-[#1565C0]">
     Show more flights
   </div>
-  <HomePageTiles />
+  <HomePageTiles/>
 </template>
