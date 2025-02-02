@@ -7,6 +7,7 @@ import IconContact from "@/components/icons/IconContact.vue";
 import HomePageTiles from "@/components/HomePageTiles.vue";
 import IconArrivals from "@/components/icons/IconArrivals.vue";
 import IconDepartures from "@/components/icons/IconDepartures.vue";
+import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 
 interface FlightsType {
   destination: string;
@@ -57,7 +58,7 @@ const flights: Ref<Array<FlightsType>> = ref([
         <div>{{ flight.flightNumber }}</div>
       </div>
       <div class="w-[2rem] flex flex-row items-center">
-        {{ ">" }}
+        <div class="h-[1rem]"><IconArrowRight /></div>
       </div>
     </div>
   </div>
