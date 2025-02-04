@@ -58,7 +58,7 @@ const flights: Ref<Array<FlightsType>> = ref([
         <div>{{ flight.flightNumber }}</div>
       </div>
       <div class="w-[2rem] flex flex-row items-center">
-        <div class="h-[1rem]"><IconArrowRight /></div>
+        <div class="h-[1rem]"><a :href="`/flight/${flight.id}`"><IconArrowRight /></a></div>
       </div>
     </div>
   </div>
