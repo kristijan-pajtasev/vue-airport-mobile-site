@@ -25,7 +25,6 @@ axios.get('https://m.split-airport.hr/odlasci.php?lang=en')
     console.log(response);
     // const parser = new DOMParser();
     // const html = parser.parseFromString(response)
-    // console.log(html)
   })
   .catch(function (error) {
     // handle error
