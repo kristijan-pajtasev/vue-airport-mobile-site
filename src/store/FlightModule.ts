@@ -27,6 +27,14 @@ const FlightModule = {
     getFlight({commit}) {
       commit("startLoading")
       setTimeout(() => {
+        commit("setFlight",
+          {
+            status: "",
+            via: "",
+            time: "6:50 05-02-2025",
+            flightNo: "OU651",
+            airline: "Croatia Airlines"
+          })
         commit("stopLoading")
       }, 1500)
     }

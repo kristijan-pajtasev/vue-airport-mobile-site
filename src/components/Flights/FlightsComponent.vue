@@ -22,7 +22,7 @@ const flights = computed(() => {
   return store.getters["FlightsModule/getFlights"]
 })
 const isLoading = computed(() => {
-  return store.getters.isLoading
+  return store.getters["FlightsModule/isLoading"]
 })
 
 const flightDisplayType = ref("ARRIVALS")
