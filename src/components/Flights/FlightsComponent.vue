@@ -7,8 +7,8 @@ import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import {useStore} from 'vuex'
 
 const store = useStore();
-console.log("useStore: ", store, store.state.count)
-store.dispatch("getFlights")
+console.log("useStore: ", store, store.state.FlightsModule.count)
+store.dispatch("FlightsModule/getFlights")
 
 interface FlightsType {
   destination: string;
@@ -19,7 +19,7 @@ interface FlightsType {
 
 // const flights: Ref<Array<FlightsType>> = ref(store.getters.getFlights)
 const flights = computed(() => {
-  return store.getters.getFlights
+  return store.getters["FlightsModule/getFlights"]
 })
 const isLoading = computed(() => {
   return store.getters.isLoading
